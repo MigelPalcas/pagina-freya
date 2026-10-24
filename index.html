@@ -3,68 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Uso de las listas</title>
+    <link rel="stylesheet" href="/style.css" />
+    <title>Mi perra Freya</title>
   </head>
   <body>
     <header>
-      <h1>Uso de las Ul</h1>
+      <h1>Mi Perra Freya</h1>
       <nav>
         <ul>
-          <li>
-            <a
-              href="https://www.google.com/?zx=1791798264266"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Google</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://es.linkedin.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Linkedin</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://prometeo-fp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Prometeo</a
-            >
-          </li>
+          <li><a href="#Iniciol">Inicio</a></li>
+          <li><a href="#sobre-freya">Sobre Freya</a></li>
+          <li><a href="#conocela">Conocela</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section>
-        <h2>Maquetaremos el main</h2>
+        <h2 id="Inicio">Bienvenidos a la página de Freya</h2>
+        <img
+          src="./images/freya portada.jpeg"
+          alt="La perra Freya mirando la camara"
+          class="portada"
+        />
+        <p>Freya es una perra muy juguetona y cariñosa.</p>
+        <p>Le encanta correr en el parque y jugar con otros perros.</p>
+      </section>
+      <section>
+        <h2 id="sobre-freya">Sobre Freya</h2>
+        <figure class="contenedor-multimedia">
+          <div class="medios-flex">
+            <video controls autoplay muted class="media-video">
+              <source
+                src="./images/freya jugando en un charco de agua.mp4"
+                tyoe="video/mp4"
+              />
+            </video>
+            <img
+              src="./images/freya cuando recien llego a casa.jpeg"
+              alt="freya en casa su primer dia"
+              class="portada"
+            />
+          </div>
+          <figcaption>
+            Freya descansando en casa y jugando en un charco de agua
+          </figcaption>
+        </figure>
+        <article>
+          <h3>Historia</h3>
+
+          <p>
+            Freya fue adoptada de una camada de perritos su madre es un husky
+            que un dia escapo de casa y se cruzo con un perro creemos que puede
+            ser un podenco o un galgo y de esa union salieron 4 cachorros, Freya
+            es la unica que quedo con nosotros.
+          </p>
+          <p>
+            Desde que llegó a nuestra familia, Freya ha traído mucha alegría y
+            amor a nuestras vidas, le encanta la zanahoria y cuando la recibimos
+            nos dijeron que era la mas tranquila de sus hermanos cachorros pero
+            cuando llego con nossotros siempre he hecho traveruas le gusta comer
+            la tierra de las plantas escarbar la tierra y comer plantas tambien
+            es muy mordelona con los sofas la madera y los juguetes de sus
+            hermanas grandes
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2 id="conocela">Conocela</h2>
         <p>
-          lore ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.
+          Si quieres conocer más sobre Freya, puedes visitar la sección
+          "Conocela" para ver fotos y videos de sus aventuras.
         </p>
-        <img src="./IMAGES/code-html.png" alt="imagen de codigo html" />
+        <div class="galeria-grid">
+          <img
+            src="./images/freya buscando una presa.jpeg"
+            alt="Freya buscando una presa"
+          />
+          <img
+            src="./images/freya captada por la camara 2.jpeg"
+            alt="Freya captada por la camara"
+          />
+          <img
+            src="./images/freya captado por la camara.jpeg"
+            alt="Foto de Freya en la camara web"
+          />
+          <img
+            src="./images/freya con algo en la boca.jpeg"
+            alt="Foto de Freya ocn algo en la boca"
+          />
+          <img
+            src="./images/freya despues de jugar.jpeg"
+            alt="Foto de Freya despues de jugar"
+          />
+          <img
+            src="./images/freya despues de salir de jugar 2.jpeg"
+            alt="Foto de Freya despues de jugar"
+          />
+          <img
+            src="./images/freya despues de salir de jugar 2.jpeg"
+            alt="Foto de Freya despues de jugar"
+          />
+          <img src="./images/freya dormida.jpeg" alt="Foto de Freya dormida" />
+          <img
+            src="./images/freya durmiendo boca arriba.jpeg"
+            alt="Foto de Freya boca arriba"
+          />
+          <img
+            src="./images/freya ha tirado la planta y regado la tierra.jpeg"
+            alt="Foto de Freya haciendo travesura"
+          />
+        </div>
       </section>
     </main>
     <footer>
-      <article>
-        <h3>Contacto</h3>
-        <ul>
-          <li>Teléfono: 123-456-7890</li>
-          <li>Email: info@empresa.com</li>
-        </ul>
-      </article>
-      <p>Derechos reservados &copy; 2026</p>
+      <p>&copy; 2026 Mi perra Freya. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>
